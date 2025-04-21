@@ -3,14 +3,14 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <div className="relative bg-[var(--primary)] text-white">
+    <div className="relative bg-primary text-white">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
           src="https://images.unsplash.com/photo-1614976523626-d598aafd4fda?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Delivery van on the road"
           fill
-          className="object-cover opacity-20"
+          className="object-cover opacity-40"
           priority
         />
       </div>
@@ -31,19 +31,19 @@ export default function Hero() {
                   Call Now
                 </span>
               </a>
-              <Link href="/contact" className="bg-white text-[var(--primary)] font-semibold px-6 py-2.5 rounded-md hover:bg-[var(--light-grey)] transition-colors text-center">
+              <Link href="/contact" className="bg-white text-primary font-semibold px-6 py-2.5 rounded-md hover:bg-light-grey transition-colors text-center">
                 Get a Quote
               </Link>
             </div>
           </div>
 
           {/* Hero Features */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+          <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
             <h2 className="text-2xl font-bold mb-4">Why Choose DNT Sameday?</h2>
             <ul className="space-y-4">
               <li className="flex">
                 <div className="mr-4 flex-shrink-0">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--secondary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
@@ -54,7 +54,7 @@ export default function Hero() {
               </li>
               <li className="flex">
                 <div className="mr-4 flex-shrink-0">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--secondary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 </div>
@@ -65,7 +65,7 @@ export default function Hero() {
               </li>
               <li className="flex">
                 <div className="mr-4 flex-shrink-0">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--secondary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
@@ -76,7 +76,7 @@ export default function Hero() {
               </li>
               <li className="flex">
                 <div className="mr-4 flex-shrink-0">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--secondary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
                   </svg>
                 </div>

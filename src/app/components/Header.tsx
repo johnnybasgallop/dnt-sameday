@@ -24,19 +24,19 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-light-grey hover:text-[var(--secondary)] font-medium">
+            <Link href="/" className="text-light-grey hover:text-secondary font-medium">
               Home
             </Link>
-            <Link href="/about" className="text-light-grey hover:text-[var(--secondary)] font-medium">
+            <Link href="/about" className="text-light-grey hover:text-secondary font-medium">
               About Us
             </Link>
-            <Link href="/services" className="text-light-grey hover:text-[var(--secondary)] font-medium">
+            <Link href="/services" className="text-light-grey hover:text-secondary font-medium">
               Services
             </Link>
-            <Link href="/fleet" className="text-light-grey hover:text-[var(--secondary)] font-medium">
+            <Link href="/fleet" className="text-light-grey hover:text-secondary font-medium">
               Our Fleet
             </Link>
-            <Link href="/contact" className="text-light-grey hover:text-[var(--secondary)] font-medium">
+            <Link href="/contact" className="text-light-grey hover:text-secondary font-medium">
               Contact
             </Link>
           </nav>
@@ -56,7 +56,7 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 rounded-md text-gray-600 hover:text-[var(--primary)]"
+            className="md:hidden p-2 rounded-md text-gray-600 hover:text-primary"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -70,19 +70,19 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="md:hidden pt-4 pb-3 border-t border-gray-200">
             <nav className="flex flex-col space-y-4">
-              <Link href="/" className="text-[var(--foreground)] hover:text-[var(--secondary)] font-medium px-2">
+              <Link href="/" className="text-foreground)] hover:text-secondary font-medium px-2">
                 Home
               </Link>
-              <Link href="/about" className="text-[var(--foreground)] hover:text-[var(--secondary)] font-medium px-2">
+              <Link href="/about" className="text-foreground)] hover:text-secondary font-medium px-2">
                 About Us
               </Link>
-              <Link href="/services" className="text-[var(--foreground)] hover:text-[var(--secondary)] font-medium px-2">
+              <Link href="/services" className="text-foreground)] hover:text-secondary font-medium px-2">
                 Services
               </Link>
-              <Link href="/fleet" className="text-[var(--foreground)] hover:text-[var(--secondary)] font-medium px-2">
+              <Link href="/fleet" className="text-foreground)] hover:text-secondary font-medium px-2">
                 Our Fleet
               </Link>
-              <Link href="/contact" className="text-[var(--foreground)] hover:text-[var(--secondary)] font-medium px-2">
+              <Link href="/contact" className="text-foreground)] hover:text-secondary font-medium px-2">
                 Contact
               </Link>
               <a

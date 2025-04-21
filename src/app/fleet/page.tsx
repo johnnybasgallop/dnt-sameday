@@ -102,7 +102,7 @@ export default function FleetPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-[var(--primary)] text-white py-16">
+      <section className="bg-primary text-white py-16">
         <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Fleet</h1>
@@ -115,8 +115,8 @@ export default function FleetPage() {
       <section className="py-16 bg-white">
         <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[var(--primary)]">Diverse Fleet for Your Logistics Needs</h2>
-            <p className="text-[var(--steel-grey)] mt-2 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold text-primary">Diverse Fleet for Your Logistics Needs</h2>
+            <p className="text-steel-grey mt-2 max-w-2xl mx-auto">
               DNT Sameday operates a modern, well-maintained fleet of vehicles capable of handling everything from small parcels to large freight.
             </p>
           </div>
@@ -141,9 +141,9 @@ export default function FleetPage() {
       </section>
 
       {/* Vehicles Showcase */}
-      <section className="py-16 bg-[var(--section-grey)]">
+      <section className="py-16 bg-section-grey">
         <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
-          <h2 className="text-3xl font-bold text-[var(--primary)] mb-12 text-center">Our Vehicle Types</h2>
+          <h2 className="text-3xl font-bold text-primary mb-12 text-center">Our Vehicle Types</h2>
 
           <div className="space-y-16">
             {vehicles.map((vehicle, index) => (
@@ -160,16 +160,16 @@ export default function FleetPage() {
                 </div>
 
                 <div className={`order-2 ${index % 2 === 1 ? 'lg:order-1' : 'lg:order-2'}`}>
-                  <h3 className="text-2xl font-bold text-[var(--primary)] mb-4">{vehicle.name}</h3>
-                  <p className="text-[var(--steel-grey)] mb-6">{vehicle.description}</p>
+                  <h3 className="text-2xl font-bold text-primary mb-4">{vehicle.name}</h3>
+                  <p className="text-steel-grey mb-6">{vehicle.description}</p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 mb-6">
                     <div>
-                      <h4 className="font-semibold text-[var(--primary)] mb-2">Specifications</h4>
+                      <h4 className="font-semibold text-primary mb-2">Specifications</h4>
                       <ul className="space-y-1">
                         {vehicle.specs.map((spec, i) => (
                           <li key={i} className="flex items-start">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-[var(--secondary)] flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-secondary flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
                             <span>{spec}</span>
@@ -179,11 +179,11 @@ export default function FleetPage() {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold text-[var(--primary)] mb-2">Ideal For</h4>
+                      <h4 className="font-semibold text-primary mb-2">Ideal For</h4>
                       <ul className="space-y-1">
                         {vehicle.services.map((service, i) => (
                           <li key={i} className="flex items-start">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-[var(--secondary)] flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-secondary flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                             </svg>
                             <span>{service}</span>
@@ -203,45 +203,45 @@ export default function FleetPage() {
       <section className="py-16 bg-white">
         <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[var(--primary)]">Fleet Features</h2>
-            <p className="text-[var(--steel-grey)] mt-2 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold text-primary">Fleet Features</h2>
+            <p className="text-steel-grey mt-2 max-w-2xl mx-auto">
               All our vehicles are equipped with the latest technology and features to ensure safe, efficient delivery.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-6 bg-[var(--section-grey)] rounded-lg">
-              <div className="bg-[var(--secondary)]/10 p-4 rounded-full inline-flex mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[var(--secondary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="p-6 bg-section-grey rounded-lg">
+              <div className="bg-secondary/10 p-4 rounded-full inline-flex mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[var(--primary)] mb-2">GPS Tracking</h3>
-              <p className="text-[var(--steel-grey)]">
+              <h3 className="text-xl font-bold text-primary mb-2">GPS Tracking</h3>
+              <p className="text-steel-grey">
                 Real-time location tracking allows for precise monitoring of deliveries and accurate ETAs.
               </p>
             </div>
 
-            <div className="p-6 bg-[var(--section-grey)] rounded-lg">
-              <div className="bg-[var(--secondary)]/10 p-4 rounded-full inline-flex mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[var(--secondary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="p-6 bg-section-grey rounded-lg">
+              <div className="bg-secondary/10 p-4 rounded-full inline-flex mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[var(--primary)] mb-2">Comprehensive Insurance</h3>
-              <p className="text-[var(--steel-grey)]">
+              <h3 className="text-xl font-bold text-primary mb-2">Comprehensive Insurance</h3>
+              <p className="text-steel-grey">
                 All vehicles are covered by our £50k goods-in-transit and £5M public liability insurance.
               </p>
             </div>
 
-            <div className="p-6 bg-[var(--section-grey)] rounded-lg">
-              <div className="bg-[var(--secondary)]/10 p-4 rounded-full inline-flex mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[var(--secondary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="p-6 bg-section-grey rounded-lg">
+              <div className="bg-secondary/10 p-4 rounded-full inline-flex mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[var(--primary)] mb-2">Regular Maintenance</h3>
-              <p className="text-[var(--steel-grey)]">
+              <h3 className="text-xl font-bold text-primary mb-2">Regular Maintenance</h3>
+              <p className="text-steel-grey">
                 Strict maintenance schedules ensure our fleet is reliable, safe, and always ready for service.
               </p>
             </div>
@@ -250,17 +250,17 @@ export default function FleetPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 bg-[var(--secondary)]">
+      <section className="py-12 bg-secondary">
         <div className="px-6 md:px-15 lg:px-20 2xl:px-30  text-center text-white">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Need a Specific Vehicle Type?</h2>
           <p className="mb-6 max-w-2xl mx-auto">
             Contact us to discuss your delivery requirements and we'll recommend the best vehicle for your needs.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="tel:+441234567890" className="bg-white text-[var(--secondary)] font-semibold px-6 py-2.5 rounded-md hover:bg-[var(--light-grey)] transition-colors">
+            <a href="tel:+441234567890" className="bg-white text-secondary font-semibold px-6 py-2.5 rounded-md hover:bg-light-grey transition-colors">
               Call Us
             </a>
-            <a href="mailto:info@dntsameday.co.uk" className="bg-[var(--primary)] text-white font-semibold px-6 py-2.5 rounded-md hover:bg-[var(--primary)]/80 transition-colors">
+            <a href="mailto:info@dntsameday.co.uk" className="bg-primary text-white font-semibold px-6 py-2.5 rounded-md hover:bg-primary/80 transition-colors">
               Email Us
             </a>
           </div>

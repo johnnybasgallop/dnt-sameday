@@ -49,18 +49,18 @@ export default function ServicesOverview() {
     <section className="py-16 bg-white">
       <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-[var(--primary)]">Our Services</h2>
-          <p className="text-[var(--steel-grey)] mt-2 max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold text-primary">Our Services</h2>
+          <p className="text-steel-grey mt-2 max-w-2xl mx-auto">
             DNT Sameday offers a comprehensive range of delivery solutions to meet all your logistics needs.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service) => (
-            <div key={service.id} className="bg-[var(--section-grey)] rounded-lg p-6 hover:shadow-md transition-shadow">
-              <div className="text-[var(--secondary)] mb-4">{service.icon}</div>
-              <h3 className="text-xl font-bold text-[var(--primary)] mb-2">{service.title}</h3>
-              <p className="text-[var(--steel-grey)] mb-4">{service.description}</p>
+            <div key={service.id} className="bg-section-grey rounded-lg p-6 hover:shadow-md transition-shadow">
+              <div className="text-secondary mb-4">{service.icon}</div>
+              <h3 className="text-xl font-bold text-primary mb-2">{service.title}</h3>
+              <p className="text-steel-grey mb-4">{service.description}</p>
             </div>
           ))}
         </div>

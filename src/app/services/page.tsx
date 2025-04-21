@@ -155,7 +155,7 @@ export default function ServicesPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-[var(--primary)] text-white py-16">
+      <section className="bg-primary text-white py-16">
         <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
@@ -168,8 +168,8 @@ export default function ServicesPage() {
       <section className="py-16 bg-white">
         <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[var(--primary)]">Delivery Solutions for Every Need</h2>
-            <p className="text-[var(--steel-grey)] mt-2 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold text-primary">Delivery Solutions for Every Need</h2>
+            <p className="text-steel-grey mt-2 max-w-2xl mx-auto">
               From urgent same-day deliveries to scheduled contract runs, we offer a comprehensive range of courier and logistics services.
             </p>
           </div>
@@ -190,18 +190,18 @@ export default function ServicesPage() {
       </section>
 
       {/* Additional Service Information */}
-      <section className="py-16 bg-[var(--section-grey)]">
+      <section className="py-16 bg-section-grey">
         <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-[var(--primary)] mb-6">Tailored to Your Business</h2>
-              <p className="text-[var(--steel-grey)] mb-4">
+              <h2 className="text-3xl font-bold text-primary mb-6">Tailored to Your Business</h2>
+              <p className="text-steel-grey mb-4">
                 At DNT Sameday, we understand that every business has unique delivery requirements. That's why we work closely with you to understand your specific needs and develop customized logistics solutions.
               </p>
-              <p className="text-[var(--steel-grey)] mb-4">
+              <p className="text-steel-grey mb-4">
                 Whether you're a small business needing occasional deliveries or a large enterprise requiring complex logistics management, our team has the expertise and resources to support you.
               </p>
-              <p className="text-[var(--steel-grey)]">
+              <p className="text-steel-grey">
                 With our comprehensive service coverage and flexible approach, we can adapt to changing demands and provide the right delivery solution at the right time.
               </p>
             </div>
@@ -218,17 +218,17 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 bg-[var(--secondary)]">
+      <section className="py-12 bg-secondary">
         <div className="px-6 md:px-15 lg:px-20 2xl:px-30  text-center text-white">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Need a Customized Solution?</h2>
           <p className="mb-6 max-w-2xl mx-auto">
             Contact our team to discuss your specific delivery requirements and how we can help.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="tel:+441234567890" className="bg-white text-[var(--secondary)] font-semibold px-6 py-2.5 rounded-md hover:bg-[var(--light-grey)] transition-colors">
+            <a href="tel:+441234567890" className="bg-white text-secondary font-semibold px-6 py-2.5 rounded-md hover:bg-light-grey transition-colors">
               Call Us
             </a>
-            <a href="mailto:info@dntsameday.co.uk" className="bg-[var(--primary)] text-white font-semibold px-6 py-2.5 rounded-md hover:bg-[var(--primary)]/80 transition-colors">
+            <a href="mailto:info@dntsameday.co.uk" className="bg-primary text-white font-semibold px-6 py-2.5 rounded-md hover:bg-primary/80 transition-colors">
               Email Us
             </a>
           </div>
