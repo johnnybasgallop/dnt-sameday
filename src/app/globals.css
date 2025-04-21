@@ -2,14 +2,27 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #212529;
+  --primary: #1A2B4C;
+  --secondary: #4B6EAF;
+  --accent: #4B6EAF;
+  --accent-hover: #3A5991;
+  --section-grey: #F5F5F5;
+  --light-grey: #6C757D;
+  --steel-grey: #6C757D;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-section-grey: var(--section-grey);
+  --color-light-grey: var(--light-grey);
+  --color-steel-grey: var(--steel-grey);
+  --font-sans: "Inter", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +36,15 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[var(--accent)] text-white font-semibold px-6 py-2.5 rounded-md hover:bg-[var(--accent-hover)] transition-colors;
+  }
+
+
+  .section-padding {
+    @apply py-12 md:py-16 lg:py-20;
+  }
 }

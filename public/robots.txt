@@ -1,0 +1,6 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.dntsameday.co.uk/sitemap.xml
