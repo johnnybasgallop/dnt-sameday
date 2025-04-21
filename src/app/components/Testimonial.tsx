@@ -83,18 +83,18 @@ export default function Testimonials() {
               className="p-2 rounded-full bg-white border border-light-grey hover:bg-section-grey transition-colors"
               aria-label="Previous testimonial"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="grey">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
             </button>
 
             {/* Dots navigation */}
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-4">
               {testimonials.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => setCurrentIndex(index)}
-                  className={`w-3 h-3 rounded-full ${index === currentIndex ? 'bg-secondary' : 'bg-light-grey'}`}
+                  className={`w-3 h-3 rounded-full ${index === currentIndex ? 'bg-secondary' : 'bg-gray-300'}`}
                   aria-label={`Go to testimonial ${index + 1}`}
                 />
               ))}
@@ -105,7 +105,7 @@ export default function Testimonials() {
               className="p-2 rounded-full bg-white border border-light-grey hover:bg-section-grey transition-colors"
               aria-label="Next testimonial"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="grey">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </button>

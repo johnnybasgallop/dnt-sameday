@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-sm">
-      <div className="px-6 md:px-15 lg:px-20 2xl:px-30  py-4">
+      <div className="px-4 md:px-10 lg:px-15 2xl:px-20  py-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center">
