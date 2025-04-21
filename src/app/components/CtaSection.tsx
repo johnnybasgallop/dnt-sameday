@@ -15,7 +15,7 @@ export default function CtaSection() {
         <div className="absolute inset-0 bg-primary opacity-70"></div>
       </div>
 
-      <div className="px-6 md:px-15 lg:px-20 2xl:px-30  relative z-10">
+      <div className="px-4 md:px-8 lg:px-10 2xl:px-12   relative z-10">
         <div className="bg-white rounded-lg shadow-xl p-8 md:p-12 max-w-4xl mx-auto">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-primary mb-4">Need a Delivery Solution?</h2>

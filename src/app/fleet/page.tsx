@@ -103,7 +103,7 @@ export default function FleetPage() {
 
       {/* Hero Section */}
       <section className="bg-primary text-white py-16">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Fleet</h1>
             <p className="text-xl">The right vehicle for every delivery requirement.</p>
@@ -113,7 +113,7 @@ export default function FleetPage() {
 
       {/* Fleet Introduction */}
       <section className="py-16 bg-white">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-primary">Diverse Fleet for Your Logistics Needs</h2>
             <p className="text-steel-grey mt-2 max-w-2xl mx-auto">
@@ -142,7 +142,7 @@ export default function FleetPage() {
 
       {/* Vehicles Showcase */}
       <section className="py-16 bg-section-grey">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
           <h2 className="text-3xl font-bold text-primary mb-12 text-center">Our Vehicle Types</h2>
 
           <div className="space-y-16">
@@ -201,7 +201,7 @@ export default function FleetPage() {
 
       {/* Fleet Features */}
       <section className="py-16 bg-white">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-primary">Fleet Features</h2>
             <p className="text-steel-grey mt-2 max-w-2xl mx-auto">
@@ -251,7 +251,7 @@ export default function FleetPage() {
 
       {/* CTA Section */}
       <section className="py-12 bg-secondary">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30  text-center text-white">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12   text-center text-white">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Need a Specific Vehicle Type?</h2>
           <p className="mb-6 max-w-2xl mx-auto">
             Contact us to discuss your delivery requirements and we'll recommend the best vehicle for your needs.

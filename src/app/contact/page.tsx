@@ -56,7 +56,7 @@ export default function ContactPage() {
 
       {/* Hero Section */}
       <section className="bg-primary text-white py-16">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
             <p className="text-xl">Available 24/7 to handle your delivery needs.</p>
@@ -66,7 +66,7 @@ export default function ContactPage() {
 
       {/* Contact Information and Form */}
       <section className="py-16 bg-white">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
@@ -276,7 +276,7 @@ export default function ContactPage() {
 
       {/* Business Hours */}
       <section className="py-12 bg-section-grey">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
           <div className="text-center mb-8">
             <h2 className="text-2xl md:text-3xl font-bold text-primary">Business Hours</h2>
             <p className="text-steel-grey mt-2">

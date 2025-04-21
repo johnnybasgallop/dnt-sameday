@@ -15,7 +15,7 @@ export default function AboutPage() {
 
       {/* Hero Section */}
       <section className="bg-primary text-white py-16">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">About DNT Sameday</h1>
             <p className="text-xl">Your trusted logistics partner for over 30 years.</p>
@@ -25,7 +25,7 @@ export default function AboutPage() {
 
       {/* Company Background */}
       <section className="py-16 bg-white">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Family-Run Excellence Since 1990</h2>
@@ -53,7 +53,7 @@ export default function AboutPage() {
 
       {/* Operational Approach */}
       <section className="py-16 bg-section-grey">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-primary">Our Operational Approach</h2>
             <p className="text-steel-grey mt-2 max-w-2xl mx-auto">
@@ -103,7 +103,7 @@ export default function AboutPage() {
 
       {/* Insurance & Coverage */}
       <section className="py-16 bg-white">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">
               <Image
@@ -154,7 +154,7 @@ export default function AboutPage() {
 
       {/* CTA Section */}
       <section className="py-12 bg-secondary">
-        <div className="px-6 md:px-15 lg:px-20 2xl:px-30  text-center text-white">
+        <div className="px-4 md:px-8 lg:px-10 2xl:px-12   text-center text-white">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Experience Our Service?</h2>
           <p className="mb-6 max-w-2xl mx-auto">
             Contact us today to discuss how we can tailor our courier and delivery services to meet your specific needs.

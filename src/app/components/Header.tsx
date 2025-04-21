@@ -1,25 +1,19 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
+import Logo from './Logo';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header className="bg-white shadow-sm">
-      <div className="px-4 md:px-10 lg:px-15 2xl:px-20  py-8">
+      <div className="px-4 md:px-8 lg:px-10 2xl:px-12   py-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <Image
-              src="/logo.svg"
-              alt="DNT Sameday Logo"
-              width={150}
-              height={45}
-              priority
-            />
+           <Logo/>
           </Link>
 
           {/* Desktop Navigation */}

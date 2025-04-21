@@ -53,7 +53,7 @@ export default function Testimonials() {
 
   return (
     <div className="bg-section-grey py-16">
-      <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+      <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold text-primary">What Our Clients Say</h2>
           <p className="text-steel-grey mt-2">Trusted by businesses across the UK</p>

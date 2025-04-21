@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <div className="relative bg-primary text-white">
+    <div className="relative bg-primary text-white md:py-15 lg:py-20 xl:py-25">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -15,7 +15,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="px-6 md:px-15 lg:px-20 2xl:px-30  relative z-10 py-16 md:py-24">
+      <div className="px-4 md:px-8 lg:px-10 2xl:px-12   relative z-10 py-16 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Hero Content */}
           <div>
@@ -40,7 +40,7 @@ export default function Hero() {
           {/* Hero Features */}
           <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
             <h2 className="text-2xl font-bold mb-4">Why Choose DNT Sameday?</h2>
-            <ul className="space-y-4">
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
               <li className="flex">
                 <div className="mr-4 flex-shrink-0">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">

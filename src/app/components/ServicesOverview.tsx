@@ -47,7 +47,7 @@ export default function ServicesOverview() {
 
   return (
     <section className="py-16 bg-white">
-      <div className="px-6 md:px-15 lg:px-20 2xl:px-30 ">
+      <div className="px-4 md:px-8 lg:px-10 2xl:px-12  ">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-primary">Our Services</h2>
           <p className="text-steel-grey mt-2 max-w-2xl mx-auto">
